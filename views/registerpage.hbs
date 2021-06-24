@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="/register" method="POST">
+            <div class="from-group">
+                <h1>Register</h1>
+            </div>
+            <div class="from-group">
+                <a href="/" type="button" class="btn btn-success">Back</a>
+            </div>
+            <div class="from-group">
+                <label for="labelusername">Username</label>
+                <input type="text" class="form-control" name="username" id="labelusername" required>
+            </div>
+            <div class="from-group">
+                <label for="labelemail">Email Address</label>
+                <input type="email" class="form-control" name="email" id="labelemail" required>
+            </div>
+            <div class="from-group">
+                <label for="labelnumber">Phone Number</label>
+                <input type="text" class="form-control" name="phone" id="labelnumber" required>
+            </div>
+            <div class="from-group">
+                <label for="labelpassword">Password</label>
+                <input type="password" class="form-control" name="password" id="labelpassword" required>
+            </div>
+            <div class="from-group">
+                <label for="labelcpassword">Confirm Password</label>
+                <input type="password" class="form-control" name="confirmpassword" id="labelcpassword" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn" value="Register">
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>

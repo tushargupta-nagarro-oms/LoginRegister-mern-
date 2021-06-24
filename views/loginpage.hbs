@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="/login" method="POST">
+            <div class="from-group">
+                <h1>Login</h1>
+            </div>
+            <div class="from-group">
+                <label for="labelusername">Username</label>
+                <input type="text" class="form-control" name="username" id="labelusername" required>
+            </div>
+            <div class="from-group">
+                <label for="labelpassword">Password</label>
+                <input type="password" class="form-control" name="password" id="labelpassword" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn" value="login">
+            </div>
+
+            <div>
+                <a href="/signup" target="_blank" rel="noopener noreferrer">New User register?</a>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
